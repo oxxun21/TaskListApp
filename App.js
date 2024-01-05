@@ -11,7 +11,6 @@ export default function App() {
   const [working, setWorking] = useState(true);
   const [text, setText] = useState("");
   const [todos, setTodos] = useState({});
-  const [loading, setLoading] = useState();
   const work = () => setWorking(true);
   const todo = () => setWorking(false);
 
